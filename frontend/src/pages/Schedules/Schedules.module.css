@@ -1,0 +1,126 @@
+.container {
+  padding: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.searchInput {
+  padding: 8px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.listCont {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+}
+
+.listItem {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textItem {
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.textDescr {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.scheduleValue {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.textValue {
+  width: 110px;
+}
+
+.deleteButton {
+  margin-right: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  background-color: #cb0000ee;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  transition: 250ms;
+  &:hover,
+  &:focus {
+    background-color: #820000;
+    color: white;
+    transition: 250ms;
+  }
+}
+
+.editButton {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  background-color: #007298;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  transition: 250ms;
+  &:hover,
+  &:focus {
+    background-color: #2b66a4;
+    color: white;
+    transition: 250ms;
+  }
+}
+
+.createButton {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  background-color: #007298;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  transition: 250ms;
+  &:hover,
+  &:focus {
+    background-color: #2b66a4;
+    color: white;
+    transition: 250ms;
+  }
+}
+
+.createButtonCont {
+  display: flex;
+  justify-content: flex-end;
+}
